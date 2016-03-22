@@ -1,0 +1,73 @@
+body 
+{
+margin: 0; 
+padding: 0; 
+font-size: 90%; 
+font-family: georgia, times, "times new roman", serif;
+background-color: #1c1c1c;
+}
+h1 {
+	color: #fff;
+}
+.ex_c {
+	color: red;
+}
+ul.gallery_s {
+		margin: 100px auto;
+
+}
+.gallery_s li{
+	list-style: none;
+	display: inline;
+	padding:5px 10px;
+}
+ul.gallery_s li img{
+	width: 23%;
+	height: 200px;
+	opacity: .5;
+	-webkit-transform: skew(10deg, 20deg) scale(.5, .5); /* Chrome, Opera 15+, Safari 3.1+ */
+      -ms-transform: skew(10deg, 20deg) scale(.5, .5); /* IE 9 */
+          transform: skew(10deg, 20deg) scale(.5, .5);  /* Firefox 16+, IE 10+, Opera */
+
+	-webkit-transition: -webkit-transform 1s, opacity 1s;
+	 -ms-transition: -ms-transform 1s, opacity 1s;
+	transition: transform 1s, opacity 1s;
+}
+
+
+ul.gallery_s li img:hover{
+	-webkit-transform: skew(0deg); /* Chrome, Opera 15+, Safari 3.1+ */
+      -ms-transform: skew(0deg); /* IE 9 */
+          transform: skew(0deg) ;  /* Firefox 16+, IE 10+, Opera */
+	opacity: 1;
+}
+
+				/*2nd*/
+				
+		
+.gallery_2_s li{
+	list-style: none;
+	display: inline;
+	padding:5px 10px;
+	margin: 100px auto;
+}
+ul.gallery_2_s li img{
+	width: 23%;
+	height: 200px;
+	opacity: .3;
+	-webkit-transform: skew(-70deg, 50deg) scale(.5, .5); /* Chrome, Opera 15+, Safari 3.1+ */
+      -ms-transform: skew(-70deg, 50deg) scale(.5, .5); /* IE 9 */
+          transform: skew(-70deg, 50deg) scale(.5, .5);  /* Firefox 16+, IE 10+, Opera */
+
+	-webkit-transition: -webkit-transform 1s, opacity 1s;
+	 -ms-transition: -ms-transform 1s, opacity 1s;
+	transition: transform 1s, opacity 1s;
+}
+
+
+ul.gallery_2_s li img:hover{
+	-webkit-transform: skew(0deg); /* Chrome, Opera 15+, Safari 3.1+ */
+      -ms-transform: skew(0deg); /* IE 9 */
+          transform: skew(0deg);  /* Firefox 16+, IE 10+, Opera */
+	opacity: 1;
+}
